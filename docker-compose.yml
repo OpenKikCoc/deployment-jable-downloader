@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  rf_ride_dc:
+    container_name: jable_downloader
+    entrypoint: bash
+    tty: true
+    # build: .
+    image: binacslee/jable_downloader:latest
+    volumes:
+      - ./:/work
