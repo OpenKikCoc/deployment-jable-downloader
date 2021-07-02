@@ -6,6 +6,6 @@ services:
     entrypoint: bash
     tty: true
     # build: .
-    image: binacslee/jable_downloader:latest
+    image: binacslee/jable-downloader:latest
     volumes:
       - ./:/work
